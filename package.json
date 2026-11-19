@@ -1,0 +1,17 @@
+{
+  "name": "@varun642002/prompt-kit",
+  "version": "1.0.0",
+  "description": "A shared, reviewed library of Claude Code slash commands. Scaffold a plugin repo others install, and lint the commands like source.",
+  "type": "module",
+  "license": "MIT",
+  "author": "varun642002",
+  "bin": { "prompt-kit": "bin/prompt-kit.mjs" },
+  "homepage": "https://github.com/varun642002/prompt-kit",
+  "repository": { "type": "git", "url": "https://github.com/varun642002/prompt-kit.git" },
+  "bugs": { "url": "https://github.com/varun642002/prompt-kit/issues" },
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node test/smoke.mjs" },
+  "keywords": ["claude", "claude-code", "slash-commands", "prompts", "linter", "cli", "plugin", "team"],
+  "files": ["bin", "lib", "commands", ".claude-plugin", "README.md", "LICENSE"],
+  "dependencies": {}
+}
