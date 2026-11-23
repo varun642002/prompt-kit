@@ -1,14 +1,21 @@
 {
   "name": "prompt-kit",
   "description": "A shared, reviewed library of slash commands",
-  "owner": { "name": "varun642002" },
+  "owner": {
+    "name": "varun642002"
+  },
   "plugins": [
     {
       "name": "prompt-kit",
       "description": "A shared, reviewed library of slash commands. Scaffold a plugin repo your team installs, and lint commands for shell calls without allowed-tools, unused argument hints and prompts that change state.",
       "version": "1.0.0",
       "source": "./",
-      "license": "MIT"
+      "license": "MIT",
+      "author": {
+        "name": "Varun S.",
+        "url": "https://github.com/varun642002"
+      },
+      "homepage": "https://github.com/varun642002/prompt-kit"
     }
   ]
 }
