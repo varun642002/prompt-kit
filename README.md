@@ -31,7 +31,7 @@ Prompts are source. Treat them like it.
 **Start a library others can install:**
 
 ```bash
-npx @varun642002/prompt-kit init team-kit
+npx github:varun642002/prompt-kit init team-kit
 ```
 
 ```text
@@ -49,13 +49,13 @@ story — no registry, no server.
 **Add a command:**
 
 ```bash
-npx @varun642002/prompt-kit new review --description "Review the diff for real bugs" --hint "[branch]"
+npx github:varun642002/prompt-kit new review --description "Review the diff for real bugs" --hint "[branch]"
 ```
 
 **Review them like code:**
 
 ```bash
-npx @varun642002/prompt-kit lint
+npx github:varun642002/prompt-kit lint
 ```
 
 ```text
@@ -86,7 +86,7 @@ claude plugin install prompt-kit@prompt-kit
 Or use it with no install at all:
 
 ```bash
-npx @varun642002/prompt-kit lint
+npx github:varun642002/prompt-kit lint
 ```
 
 ## 🎮 Commands
